@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <title>Astronomy Picture of the Day</title>
+</head>
+<body>
+<h1><strong>Astronomy Picture of the Day</strong></h1>
+<h2>Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.
+
+</h2>
+<div class="nasa">
+    <label for="date"><h3>Select a Date:</h3></label>
+    <input type="date"  id="date" name="data">
+    <button id="submit" onclick="search()">Search</button>
+</div>
+<div class="container">
+    <div class="img" ></div>
+    <img id="img">
+    <h1 id="title"></h1>
+    <p id="explanation"></p> <br>
+    <p id="copyright"></p>
+  </div>
+   
+  <footer>
+    <h3>© Karla Valeriano T13</h3>
+  </footer>
+   
+   
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+    
+</body>
+</html>
